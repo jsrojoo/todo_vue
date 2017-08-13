@@ -5,16 +5,18 @@
     </div>
     <i-menu-item name="1">
       <Icon type="ios-navigate"></Icon>
-      <span class="layout-text">Todo list</span>
+      <span class="layout-text">Todo</span>
     </i-menu-item>
     <i-menu-item name="2">
       <Icon type="ios-keypad"></Icon>
-      <span class="layout-text">Graphs</span>
+      <span class="layout-text">Graph</span>
     </i-menu-item>
-    <i-menu-item name="3">
-      <Icon type="ios-analytics"></Icon>
-      <span class="layout-text">Logout</span>
-    </i-menu-item>
+    <router-link to="/login">
+      <i-menu-item name="3">
+        <Icon type="ios-analytics"></Icon>
+        <span class="layout-text">Logout</span>
+      </i-menu-item>
+    </router-link>
   </i-menu>
 </template>
 
